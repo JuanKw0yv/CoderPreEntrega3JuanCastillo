@@ -1,0 +1,17 @@
+main {
+    background-image: linear-gradient(#c19e72, #b09776);
+
+    section {
+        .artjefes {
+            height: 100%;
+
+            .boss {
+                height: 10%;
+                width: 100%;
+                animation-name: delante;
+                animation-duration: 2s;
+                animation-direction: alternate-reverse;
+            }
+        }
+    }
+}

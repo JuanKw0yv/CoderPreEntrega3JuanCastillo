@@ -1,0 +1,199 @@
+h1 {
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  animation-name: delante;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+}
+
+h2 {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  size: 80px;
+}
+
+h3 {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+@keyframes delante {
+  100% {
+    transform: translate(400px);
+  }
+}
+header .navbar {
+  background-color: #1b1725 !important;
+}
+header nav div {
+  display: flex;
+  justify-content: space-around;
+}
+header nav div .nav-link {
+  color: rgb(255, 255, 255) !important;
+  font-size: 20px;
+}
+header nav div .navbar-toggler-icon {
+  background-color: rgb(129, 129, 129) !important;
+}
+header nav div .navbar-toggler {
+  background-color: rgb(129, 129, 129) !important;
+}
+header nav div .viejo {
+  height: 60px;
+  transition: 0.5s;
+  animation-name: rotacion;
+  animation-duration: 2s;
+}
+header nav div .viejo:hover {
+  transform: scale(1.2);
+}
+header nav div button {
+  color: black;
+  background-color: #c19e72;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+header nav div button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  transform: scale(1.2);
+}
+
+@keyframes rotacion {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#redes {
+  background-color: #1b1725;
+  color: white;
+  padding: 20px 0px 10px;
+  bottom: 0;
+  left: 0;
+}
+#redes div ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#redes div .nai {
+  height: 50px;
+  width: 50px;
+}
+#redes div .nai:hover {
+  transform: scale(2);
+}
+#redes div .fa {
+  height: 40px;
+  width: 40px;
+}
+#redes div .fa:hover {
+  transform: scale(1.5);
+}
+
+main {
+  background-image: linear-gradient(#c19e72, #b09776);
+}
+main section article .video {
+  height: 100%;
+  width: 100%;
+  margin-top: 30px;
+  border: 3px solid #282e39;
+  border-radius: 5px;
+  animation-name: delante;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+}
+main section article .venta {
+  height: 100%;
+  width: 80%;
+  animation-name: delante;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+}
+main section .arthome {
+  height: 100%;
+}
+main section .arthome .puntos {
+  height: 10%;
+  width: 100%;
+  animation-name: delante;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+}
+
+main {
+  background-image: linear-gradient(#c19e72, #b09776);
+}
+main section article .lore {
+  height: 45%;
+  width: 80%;
+  border: 3px solid #282e39;
+  border-radius: 5px;
+  animation-name: delante;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+}
+
+main {
+  background-image: linear-gradient(#c19e72, #b09776);
+}
+main section .list {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #282e39;
+  border-radius: 5px;
+  animation-name: delante;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+}
+
+main {
+  background-image: linear-gradient(#c19e72, #b09776);
+}
+main section .artjefes {
+  height: 100%;
+}
+main section .artjefes .boss {
+  height: 10%;
+  width: 100%;
+  animation-name: delante;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+}
+
+main {
+  background-image: linear-gradient(#c19e72, #b09776);
+}
+main section article .venta {
+  height: 100%;
+  width: 80%;
+  animation-name: delante;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+}
+main section article .simil {
+  height: 100%;
+  width: 100%;
+  margin-top: 30px;
+  border: 3px solid #282e39;
+  border-radius: 5px;
+  animation-name: delante;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,15 @@
+main {
+    background-image: linear-gradient(#c19e72, #b09776);
+
+    section {
+        .list {
+            width: 100%;
+            height: 100%;
+            border: 3px solid #282e39;
+            border-radius: 5px;
+            animation-name: delante;
+            animation-duration: 2s;
+            animation-direction: alternate-reverse;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+header {
+    .navbar {
+        background-color: #1b1725 !important;
+    }
+
+    nav {
+        div {
+            display: flex;
+            justify-content: space-around;
+
+            .nav-link {
+                color: rgb(255, 255, 255) !important;
+                font-size: 20px;
+            }
+
+            .navbar-toggler-icon {
+                background-color: rgb(129, 129, 129) !important;
+            }
+
+            .navbar-toggler {
+                background-color: rgb(129, 129, 129) !important;
+            }
+
+            .viejo {
+                height: 60px;
+                transition: 0.5s;
+                animation-name: rotacion;
+                animation-duration: 2s;
+            }
+
+            .viejo:hover {
+                transform: scale(1.2);
+            }
+
+            button {
+                color: black;
+                background-color: #c19e72;
+                border-radius: 10px;
+                transition: 0.5s;
+            }
+
+            button:hover {
+                color: rgb(255, 255, 255);
+                background-color: rgb(0, 0, 0);
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+
+@keyframes rotacion {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,34 @@
+#redes {
+    background-color: #1b1725;
+    color: white;
+    padding: 20px 0px 10px;
+    bottom: 0;
+    left: 0;
+
+    div {
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .nai {
+            height: 50px;
+            width: 50px;
+        }
+
+        .nai:hover {
+            transform: scale(2);
+        }
+
+        .fa {
+            height: 40px;
+            width: 40px;
+        }
+
+        .fa:hover {
+            transform: scale(1.5);
+        }
+    }
+}
